@@ -7,9 +7,9 @@ function Game() {
     const { canvas } = useContext(CanvasContext)
 
     return (
-        <Debugger canvas = {canvas}>
+        // <Debugger canvas = {canvas}>
             <Background canvas = {canvas}/>
-        </Debugger>
+        // </Debugger>
     )
 }
 
